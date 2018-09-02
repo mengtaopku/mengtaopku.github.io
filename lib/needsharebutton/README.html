@@ -90,7 +90,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '6.4.1',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -202,6 +202,10 @@
       </a>
     </div>
     
+      
+        <p class="site-subtitle">厚栋任重 志在千里</p>
+      
+    
   </div>
 
   <div class="site-nav-toggle">
@@ -256,7 +260,7 @@
         
           
           <li class="menu-item menu-item-readings">
-    <a href="/reading/" rel="section">
+    <a href="/readings/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-book"></i> <br />阅读归档</a>
   </li>
         
@@ -560,7 +564,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="/images/avatar.gif"
+                src="/images/avatar.png"
                 alt="mengtao" />
             
               <p class="site-author-name" itemprop="name">mengtao</p>
@@ -581,19 +585,36 @@
               
 
               
-
-              
                 
                 
-                <div class="site-state-item site-state-tags">
-                  
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
                     
                     
                       
                     
                     <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
-                  
+                  </a>
                 </div>
               
             </nav>
@@ -602,11 +623,48 @@
           
 
           
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:1501110349@pku.edu.cn" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/mengtaopku" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i></a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.facebook.com/profile.php?id=100007783985618" target="_blank" title="FB Page"><i class="fa fa-fw fa-facebook"></i></a>
+                  
+                </span>
+              
+            </div>
+          
 
           
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐网站
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://xmuplus.github.io" title="The Economist" target="_blank">The Economist</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://uqer.io" title="UQER" target="_blank">UQER</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -649,12 +707,30 @@
       <div class="footer-inner">
         <div class="copyright">&copy; 2018.9.2 – <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-graduation-cap"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">mengtao</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">站点总字数：</span>
+    
+    <span title="站点总字数">0k</span>
+  
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    
+    <span title="站点阅读时长">1 分钟</span>
   
 </div>
 
@@ -675,14 +751,14 @@
   
     <span class="site-uv" title="总访客量">
       <i class="fa fa-user"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+     访客数: <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
     </span>
   
 
   
     <span class="site-pv" title="总访问量">
       <i class="fa fa-eye"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      总访问量：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
     </span>
   
 </div>
@@ -702,6 +778,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
@@ -838,7 +916,7 @@
         appId: 'cWFmQYC6ITwSlt6qXNAgfK55-gzGzoHsz',
         appKey: 'Q1DIRMLoswA02K8zAIUk5AeH',
         placeholder: '感谢您的指正！',
-        avatar:'mm',
+        avatar:'wavatar',
         meta:guest,
         pageSize:'10' || 10,
         visitor: false
@@ -1311,10 +1389,24 @@
   
 
   
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=6.4.1"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=6.4.1"></script>
+
 
   
 
   
+  
+  
+    
+  
+  <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-bookmark@latest/bookmark.min.js"></script>
+  <script type="text/javascript">
+  
+    bookmark.loadBookmark();
+  
+  </script>
+
 
   
 
