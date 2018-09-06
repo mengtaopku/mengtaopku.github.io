@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mengtaopku.github.io/"/>
-  <updated>2018-09-06T08:41:31.560Z</updated>
+  <updated>2018-09-06T16:35:31.017Z</updated>
   <id>http://mengtaopku.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LaTeX中数学公式语法</title>
+    <link href="http://mengtaopku.github.io/2018/09/06/LaTeX/"/>
+    <id>http://mengtaopku.github.io/2018/09/06/LaTeX/</id>
+    <published>2018-09-06T14:59:14.000Z</published>
+    <updated>2018-09-06T16:35:31.017Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h1 id="公式模式"><a href="#公式模式" class="headerlink" title="公式模式"></a>公式模式</h1><ul><li><strong>行间(inline)模式</strong>：即在正文中插入数学内容。行间公式用<code>$ … $</code></li><li><strong>独立(display)模式</strong>：独立成行，可以有或没有编号。<ul><li>无编号用<code>$$...$$</code></li><li>有编号用<code>$$... \tag{1.1}$$</code></li></ul></li></ul><p>如：<code>$$E=mc^2 \tag{1.1}$$</code></p><p>$$<br>E=mc^2 \tag{1.1}<br>$$<br><a id="more"></a></p><h1 id="基本元素"><a href="#基本元素" class="headerlink" title="基本元素"></a>基本元素</h1><ul><li><p>希腊字母</p><p><img src="/images/latex/希腊字母.png" alt=""></p></li><li><p>标注</p><p><img src="/images/latex/标注1.png" alt=""></p><p><img src="/images/latex/标注2.png" alt=""></p></li><li><p>上下标</p><p>指数或上标用^</p><p>下标用_</p><p>根号用\sqrt</p><p>如，<code>$$x_{ij}^2 \quad \sqrt{x} \quad \sqrt[3]{x}$$</code></p><p>$$x_{ij}^2 \quad \sqrt{x} \quad \sqrt[3]{x}$$</p></li><li><p>分数</p><p>行内公式中的分式字体较小，可用\dfrac代替\frac使行内公式分式变为显示公式大小；同样在行间公式中有\tfrac可得到行内分式大小的分式。</p><p><code>$$\frac{1}{2} \quad \dfrac{1}{2} \quad \tfrac{1}{2}$$</code></p><p>$$\frac{1}{2} \quad \dfrac{1}{2} \quad \tfrac{1}{2}$$</p></li><li><p>运算符</p><p><code>$$\pm \; \times \; \div \; \cdot \; \cap \; \cup \; \geq \; \leq \; \neq \; \approx \; \equiv$$</code></p><p>$$\pm \; \times \; \div \; \cdot \; \cap \; \cup \; \geq \; \leq \; \neq \; \approx \; \equiv$$</p><p><code>$\sum_{i=1}^n i \quad \prod_{i=1}^n \quad \lim_{x \to 0}x^2 \quad \int x dx \quad  \int_a^b x^2 dx$</code></p><p>$\sum_{i=1}^n i \quad \prod_{i=1}^n \quad \lim_{x \to 0}x^2 \quad \int x dx \quad  \int_a^b x^2 dx$</p><p><code>$$\sum_{i=1}^n i \quad \prod_{i=1}^n \quad \lim_{x \to 0}x^2 \quad \int x dx \quad  \int_a^b x^2 dx$$</code></p><p>$$\sum_{i=1}^n i \quad \prod_{i=1}^n \quad \lim_{x \to 0}x^2 \quad \int x dx \quad  \int_a^b x^2 dx$$</p></li><li><p>箭头</p><p>$\leftarrow$ <code>$\leftarrow$</code></p><p>$\longleftarrow$ <code>$\longleftarrow$</code></p><p>$\rightarrow \longrightarrow $ <code>$\rightarrow \longrightarrow $</code></p><p>$\leftrightarrow \longleftrightarrow$ <code>$\leftrightarrow \longleftrightarrow$</code></p><p>$\Leftarrow \Longleftarrow \Rightarrow \Longrightarrow \Leftrightarrow \Longleftrightarrow$</p><p><code>$\Leftarrow \Longleftarrow \Rightarrow \Longrightarrow \Leftrightarrow \Longleftrightarrow$</code></p></li><li><p>括号</p><p>用\big \Big \bigg \Bigg调整大小</p><p><code>$\Bigg(\bigg(\Big(\big((x)\big)\Big)\bigg)\Bigg)$</code></p><p>$\Bigg(\bigg(\Big(\big((x)\big)\Big)\bigg)\Bigg)$</p><p><code>$\Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg]$</code></p><p>$\Bigg[\bigg[\Big[\big[[x]\big]\Big]\bigg]\Bigg]$</p><p><code>$\Bigg\{$</code></p><p>$\Bigg{$</p><p><code>$\Bigg\langle \Bigg\lvert \Big\lVert \Big\rVert \Bigg\rvert \Bigg\rangle$</code></p><p>$\Bigg\langle \Bigg\lvert \Big\lVert \Big\rVert \Bigg\rvert \Bigg\rangle$</p></li><li><p>省略号</p><p><code>$ x_1, x_2, \dots, x_n \quad 1,2,\cdots,n \quad \vdots \quad \ddots$</code></p><p>$ x_1, x_2, \dots, x_n \quad 1,2,\cdots,n \quad \vdots \quad \ddots$</p><p>注：\dots和\cdots的纵向位置不同，前者多用于下标的序列</p></li></ul><h1 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h1><h1 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h1><h1 id="数学字体"><a href="#数学字体" class="headerlink" title="数学字体"></a>数学字体</h1><h1 id="公式加方框"><a href="#公式加方框" class="headerlink" title="公式加方框"></a>公式加方框</h1><p>如：<code>$$\boxed{E=mc^2} \tag{1.1}$$</code></p><p>$$\boxed{E=mc^2} \tag{1.1}$$</p><h1 id="公式中空格"><a href="#公式中空格" class="headerlink" title="公式中空格"></a>公式中空格</h1><ul><li><p>两个quad空格，两个em的宽度</p><p>a \qquad b</p><p>$$ a \qquad b$$</p></li><li><p>quad空格，一个em的宽度</p><p>a \quad b</p><p>$$ a \quad b$$</p></li><li><p>大空格，6/18em宽度</p><p>a\ b</p><p>$$a \ b $$</p></li><li><p>中等空格，5/18em宽度</p><p>a\;b</p><p>$$a\;b$$</p></li><li><p>中小空格，4/18em宽度</p><p>a\:b</p><p>$$a\:b$$</p></li><li><p>小空格，3/18em宽度</p><p>a\,b</p><p>$$a\,b$$</p></li><li><p>没有空格</p><p>ab</p><p>$$ab$$</p></li><li><p>紧贴，缩进1/6em宽度</p><p><code>a\\!b</code></p><p>$$a\!b$$</p></li></ul><h1 id="在线编辑器"><a href="#在线编辑器" class="headerlink" title="在线编辑器"></a>在线编辑器</h1><p><a href="https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn" target="_blank" rel="noopener">神器</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h1 id=&quot;公式模式&quot;&gt;&lt;a href=&quot;#公式模式&quot; class=&quot;headerlink&quot; title=&quot;公式模式&quot;&gt;&lt;/a&gt;公式模式&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;行间(inline)模式&lt;/strong&gt;：即在正文中插入数学内容。行间公式用&lt;code&gt;$ … $&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;独立(display)模式&lt;/strong&gt;：独立成行，可以有或没有编号。&lt;ul&gt;
+&lt;li&gt;无编号用&lt;code&gt;$$...$$&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;有编号用&lt;code&gt;$$... \tag{1.1}$$&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如：&lt;code&gt;$$E=mc^2 \tag{1.1}$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;E=mc^2 \tag{1.1}&lt;br&gt;$$&lt;br&gt;
+    
+    </summary>
+    
+      <category term="编程" scheme="http://mengtaopku.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="LaTeX" scheme="http://mengtaopku.github.io/tags/LaTeX/"/>
+    
+  </entry>
   
   <entry>
     <title>化工行业概述</title>
