@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mengtaopku.github.io/"/>
-  <updated>2018-09-08T09:34:58.098Z</updated>
+  <updated>2018-09-08T14:05:41.046Z</updated>
   <id>http://mengtaopku.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Invested Capital相关概念</title>
+    <link href="http://mengtaopku.github.io/2018/09/08/capital/"/>
+    <id>http://mengtaopku.github.io/2018/09/08/capital/</id>
+    <published>2018-09-08T09:51:48.000Z</published>
+    <updated>2018-09-08T14:05:41.046Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h1 id="IC-TIC-TC"><a href="#IC-TIC-TC" class="headerlink" title="IC/TIC/TC"></a>IC/TIC/TC</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>Invested Capital在investopedia上有定义，摘录如下：</p><blockquote><p>Invested capital is the total amount of money raised by a company by issuing securities to equity shareholders and debt to bondholders, where invested capital is calculated <strong>by adding the total debt and capital lease obligations to the amount of equity issued to investors</strong>. Invested capital is not a line item in company’s financial statement because <strong>debt, capital leases and stockholder’s equity are each listed separately in the balance sheet.</strong></p></blockquote><p>总结为公式是：<br>$$<br>Invested\;Capital=Debt+(Capital\; leases)+Equity<br>$$<br><code>区分</code> <strong>要与Asset相区分</strong></p><p>我们认为，total capital，invested capital和total invested capital是一个概念，总资本、投资资本、总投资资本，都指公司总共投入多少钱。Total capital由付息债务debt和equity组成，这与Asset（由包括不付息债务的liability，如A/P，和equity组成）不同，Asset中的non-intereset current liability不是投入的资本。</p><a id="more"></a><p><code>细微差别</code></p><blockquote><ul><li><p>TIC</p><p>概念来源于用EV/EBITDA来估值</p><p>All else being equal, the justified EV/EBITDA based on fundamentals should be positively related to the <strong>expected growth rate in free cash flow to the firm</strong>, positively related to expected profitability as measured by <strong>return on invested capital</strong>, and negatively related to the business’s <strong>weighted average cost of capital</strong>.</p><p><img src="/images/Capital/KVD.png" alt=""></p><ul><li><p>原版书对total invested capital有这样的定义：</p></li><li><p><code>正文中</code> <strong>Total invested capital (TIC)/The sum of market value of common equity, book value of preferred equity, and face value of debt</strong>, sometimes also known as <strong>the market value of invested capital/The market value of debt and equity</strong>, that is <strong>an alternative to enterprise value</strong>. In contrast with EV, TIC includes the market value of equity and debt, but does not deduct cash and investments.</p></li><li><code>术语表中</code> The sum of market value of common equity, book value of preferred equity, and face value of debt.<ul><li>$Total\;Invested\;Capital=MV_{common\;equity}+BV_{preferred\; equity}+FC_{debt}$ </li></ul></li><li><code>关联</code> Enterprise value = TIC - Cash&amp;Investments<ul><li>EV是强调MV的，当然当MV of debt无法获取时，也会使用BV</li><li>Cash and investments (sometimes termed <strong>nonearning assets/Cash and investments (specifically cash, cash equivalents, and short-term investments)</strong>) are subtracted because EV is designed to measure the net price an acquirer would pay for the company as a whole. </li></ul></li><li><em>我们这样认为，TIC有时候指IC的MV，有时用FV/BV计算debt也行，其实这正表明这三个概念是一样的</em></li></ul></li><li><p>IC</p><p>原版书中对invested capital这样定义：</p><p>Hawawini and Viallet (2011 p. 628) define invested capital in detail as <strong>cash and cash equivalents</strong> plus <strong>working capital requirement</strong> (<strong>operating assets minus operating liabilities, where operating assets reflect receivables, inventories, and prepaid expenses and operating liabilities include payables and accrued expenses</strong>) plus <strong>net fixed assets</strong>. </p></li></ul></blockquote><h2 id="推导公式"><a href="#推导公式" class="headerlink" title="推导公式"></a>推导公式</h2><p>$$<br>Total\; Capital=Debt+Equity-excess cash\\=Liability-noninterest\;Current\;Liability+Equity\\=Asset-noninterest\;current\;liability\\=cash+ Current Asset(excluding cash) + noncurrent\;Asset-noninterest\;current\;liability\\=<br>$$</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h1 id=&quot;IC-TIC-TC&quot;&gt;&lt;a href=&quot;#IC-TIC-TC&quot; class=&quot;headerlink&quot; title=&quot;IC/TIC/TC&quot;&gt;&lt;/a&gt;IC/TIC/TC&lt;/h1&gt;&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;Invested Capital在investopedia上有定义，摘录如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Invested capital is the total amount of money raised by a company by issuing securities to equity shareholders and debt to bondholders, where invested capital is calculated &lt;strong&gt;by adding the total debt and capital lease obligations to the amount of equity issued to investors&lt;/strong&gt;. Invested capital is not a line item in company’s financial statement because &lt;strong&gt;debt, capital leases and stockholder’s equity are each listed separately in the balance sheet.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;总结为公式是：&lt;br&gt;$$&lt;br&gt;Invested\;Capital=Debt+(Capital\; leases)+Equity&lt;br&gt;$$&lt;br&gt;&lt;code&gt;区分&lt;/code&gt; &lt;strong&gt;要与Asset相区分&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们认为，total capital，invested capital和total invested capital是一个概念，总资本、投资资本、总投资资本，都指公司总共投入多少钱。Total capital由付息债务debt和equity组成，这与Asset（由包括不付息债务的liability，如A/P，和equity组成）不同，Asset中的non-intereset current liability不是投入的资本。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="金融" scheme="http://mengtaopku.github.io/categories/%E9%87%91%E8%9E%8D/"/>
+    
+    
+      <category term="CFA" scheme="http://mengtaopku.github.io/tags/CFA/"/>
+    
+  </entry>
   
   <entry>
     <title>WCInv和FCInv等概念</title>
