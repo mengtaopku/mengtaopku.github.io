@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mengtaopku.github.io/"/>
-  <updated>2018-09-08T17:45:15.916Z</updated>
+  <updated>2018-09-10T13:55:19.677Z</updated>
   <id>http://mengtaopku.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>氨工业（1）</title>
+    <link href="http://mengtaopku.github.io/2018/09/10/ammonia/"/>
+    <id>http://mengtaopku.github.io/2018/09/10/ammonia/</id>
+    <published>2018-09-10T11:53:57.000Z</published>
+    <updated>2018-09-10T13:55:19.677Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h1 id="氨气（Ammonia）的工业用途"><a href="#氨气（Ammonia）的工业用途" class="headerlink" title="氨气（Ammonia）的工业用途"></a>氨气（Ammonia）的工业用途</h1><p>在自然界，氨气可从有机废物的分解而产生。在农业集中的地区，由于动物废料较多，从而氨气浓度会升高，但是这种升高是非常有限的。氨气也是一种最为常见的工业化学品，用于非常多的工业领域：</p><a id="more"></a><p><img src="/images/ammonia/use.png" alt=""></p><p>对该表的中文总结：</p><ul><li><p>化肥工业（消耗占全球氨产量的80%，全球氨的48%是用于生产尿素，11%是硝酸铵，20%是如磷酸铵的其他花费，3%是直接应用）：尿素、硝酸铵、磷酸铵、磷酸氢二铵、磷酸二氢铵、直接使用</p><p><em>注：尿素是最为常用的氮肥，也是塑料、树脂 resin、粘合剂等工业产品的基础原料</em></p></li><li><p>化学品：硝酸（制造炸药，如TNT，硝化甘油<em>也是一种血管舒张药物</em>，PETN）、碳酸氢钠、碳酸钠、氰化氢、肼（用于火箭推动系统）</p></li><li><p>炸药：硝酸铵</p></li><li><p>纤维和塑料：尼龙和其他聚酰胺</p><p>己内酰胺$\rightarrow$尼龙$\rightarrow$地毯家具衣服</p><p>丙烯氰$\rightarrow$丙烯酸纤维$\rightarrow$家具衣服</p></li><li><p>冷藏：用于制冰，大型制冷设备、建筑物和工厂的空调</p></li><li><p>医药：用于制造诸如磺胺类药物（抑制了细菌的生长和繁殖，因为细菌需要对氨基苯甲酸来生物合成叶酸）、抗疟疾和维生素，如维生素B、烟酰胺（烟酰胺）和硫胺素。</p></li><li><p>造纸：硫酸氢铵使得一些硬木可以使用</p></li><li><p>采矿冶金：用于氮化（光亮退火）钢，用于锌和镍的提取</p></li><li><p>清洁：溶液中的氨被用作清洁剂</p></li></ul><h1 id="氨气的生产"><a href="#氨气的生产" class="headerlink" title="氨气的生产"></a>氨气的生产</h1><p>早在20世纪初期大规模工业合成氨就已经进行了，这就是著名的Habor-Bosch过程，将$N_2$和$H_2$反应转化为$NH_3$。合成氨可以分成两个主要的阶段：</p><ul><li>产$H_2$ </li><li>合成$NH_3$ </li></ul><p>整个过程中需要使用原料主要是天然气、煤炭或石脑油。使用后两者时，要将其转化为甲烷、氢气和$CO_2$。</p><h2 id="产-H-2-过程"><a href="#产-H-2-过程" class="headerlink" title="产$H_2$过程"></a>产$H_2$过程</h2><p>第一阶段包括产生合成气、去除$CO$产生氢气氮气混合物。后者称为shift reation，$CO$的去除是通过液化的方法进行的，一般会卖给核电站作为冷却剂。</p><p><img src="/images/ammonia/NH3.png" alt=""></p><h2 id="合成-NH-3"><a href="#合成-NH-3" class="headerlink" title="合成$NH_3$"></a>合成$NH_3$</h2><p>在第二阶段期间，将合成气引入固定床反应器中，在一定的压力和温度条件下进行反应。温度范围从600到700 K，压力可达到100个大气压。反应物通过催化剂床，经历该过程的基本化学反应为：</p><p>$$N_2 + 3H_2 = 2NH_3 +heat$$ </p><p>部分合成气会转化为氨（$NH_3$）并储存起来，同时将剩余的氢气和氮气混合物再次返回反应器。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.researchgate.net/publication/283122394_Composition_and_Drivers_of_Energy_Prices_and_Costs_in_Energy_Intensive_Industries_The_Case_of_Ceramics_Flat_Glass_and_Chemical_Industries?_sg=VQHxMZvjDNBa55BPIVwJ0i6hMT4ggRA3HS6k4rcCR__9Lz_Dj7icLgmUI7CHVVec3sQjgDNUYhhprhFsgGsgjmqCBCl4EWgqcA" target="_blank" rel="noopener">Composition and Drivers of Energy Prices and Costs in Energy Intensive Industries: The Case of Ceramics, Flat Glass and Chemical Industries</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h1 id=&quot;氨气（Ammonia）的工业用途&quot;&gt;&lt;a href=&quot;#氨气（Ammonia）的工业用途&quot; class=&quot;headerlink&quot; title=&quot;氨气（Ammonia）的工业用途&quot;&gt;&lt;/a&gt;氨气（Ammonia）的工业用途&lt;/h1&gt;&lt;p&gt;在自然界，氨气可从有机废物的分解而产生。在农业集中的地区，由于动物废料较多，从而氨气浓度会升高，但是这种升高是非常有限的。氨气也是一种最为常见的工业化学品，用于非常多的工业领域：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="化学" scheme="http://mengtaopku.github.io/categories/%E5%8C%96%E5%AD%A6/"/>
+    
+    
+      <category term="化工行业" scheme="http://mengtaopku.github.io/tags/%E5%8C%96%E5%B7%A5%E8%A1%8C%E4%B8%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>Invested Capital相关概念</title>
