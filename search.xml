@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[瑞士那些天#1-How to operate the Solid-Gas Interface Chamber]]></title>
+    <url>%2F2018%2F09%2F15%2Fswiss-days%2F</url>
+    <content type="text"><![CDATA[Introduce a sample/manipulator in the load lock and analysis chamber The load lock should be vented and the shutter (V1) should be closed. Check thatthere is no manipulator installed. Close the venting valve (control panel of the manipulator, V4, close position). Install the manipulator (pay attention to the cooling circuit of the cryo-holder and to the connections of the heated sample holder). Check the orientation of the sample: the sample/sample holder must be on the beamline (photons) side. The manipulator slides easily until the last part, where its head has to go through o-rings. Push the manipulator gently until its flange is in contact with that of the W motor and fix it with the two M5 screws available (IMPORTANT: it is not necessary to overtight the screws!). Connect the ground using the yellow/green cable and the clamp available (see Figure 2).]]></content>
+      <categories>
+        <category>化学</category>
+      </categories>
+      <tags>
+        <tag>同步辐射技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[氨工业（1）]]></title>
     <url>%2F2018%2F09%2F10%2Fammonia%2F</url>
     <content type="text"><![CDATA[氨气（Ammonia）的工业用途在自然界，氨气可从有机废物的分解而产生。在农业集中的地区，由于动物废料较多，从而氨气浓度会升高，但是这种升高是非常有限的。氨气也是一种最为常见的工业化学品，用于非常多的工业领域： 对该表的中文总结： 化肥工业（消耗占全球氨产量的80%，全球氨的48%是用于生产尿素，11%是硝酸铵，20%是如磷酸铵的其他花费，3%是直接应用）：尿素、硝酸铵、磷酸铵、磷酸氢二铵、磷酸二氢铵、直接使用 注：尿素是最为常用的氮肥，也是塑料、树脂 resin、粘合剂等工业产品的基础原料 化学品：硝酸（制造炸药，如TNT，硝化甘油也是一种血管舒张药物，PETN）、碳酸氢钠、碳酸钠、氰化氢、肼（用于火箭推动系统） 炸药：硝酸铵 纤维和塑料：尼龙和其他聚酰胺 己内酰胺$\rightarrow$尼龙$\rightarrow$地毯家具衣服 丙烯氰$\rightarrow$丙烯酸纤维$\rightarrow$家具衣服 冷藏：用于制冰，大型制冷设备、建筑物和工厂的空调 医药：用于制造诸如磺胺类药物（抑制了细菌的生长和繁殖，因为细菌需要对氨基苯甲酸来生物合成叶酸）、抗疟疾和维生素，如维生素B、烟酰胺（烟酰胺）和硫胺素。 造纸：硫酸氢铵使得一些硬木可以使用 采矿冶金：用于氮化（光亮退火）钢，用于锌和镍的提取 清洁：溶液中的氨被用作清洁剂 氨气的生产早在20世纪初期大规模工业合成氨就已经进行了，这就是著名的Habor-Bosch过程，将$N_2$和$H_2$反应转化为$NH_3$。合成氨可以分成两个主要的阶段： 产$H_2$ 合成$NH_3$ 整个过程中需要使用原料主要是天然气、煤炭或石脑油。使用后两者时，要将其转化为甲烷、氢气和$CO_2$。 产$H_2$过程第一阶段包括产生合成气、去除$CO$产生氢气氮气混合物。后者称为shift reation，$CO$的去除是通过液化的方法进行的，一般会卖给核电站作为冷却剂。 合成$NH_3$在第二阶段期间，将合成气引入固定床反应器中，在一定的压力和温度条件下进行反应。温度范围从600到700 K，压力可达到100个大气压。反应物通过催化剂床，经历该过程的基本化学反应为： $$N_2 + 3H_2 = 2NH_3 +heat$$ 部分合成气会转化为氨（$NH_3$）并储存起来，同时将剩余的氢气和氮气混合物再次返回反应器。 参考资料Composition and Drivers of Energy Prices and Costs in Energy Intensive Industries: The Case of Ceramics, Flat Glass and Chemical Industries]]></content>
